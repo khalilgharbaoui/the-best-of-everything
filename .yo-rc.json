@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "theBestofEveryThing",
+    "style": "scss",
+    "postcss": false
+  }
+}
