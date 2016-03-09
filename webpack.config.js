@@ -23,6 +23,7 @@ const configs = {
   dev: require(path.join(__dirname, 'cfg/dev')),
   dist: require(path.join(__dirname, 'cfg/dist')),
   test: require(path.join(__dirname, 'cfg/test'))
+  
 };
 
 /**
@@ -35,5 +36,8 @@ function buildConfig(wantedEnv) {
   let validEnv = isValid ? wantedEnv : 'dev';
   return configs[validEnv];
 }
+
+
+
 
 module.exports = buildConfig(env);

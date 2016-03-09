@@ -44,7 +44,7 @@ class MoviesListComponent extends React.Component {
     return (
       <div className='index'>
 
-        <h1> List of the best movies</h1>
+        <h1>theBest Movies List</h1>
         {this.state.dump.map(function(movie){
             let starStyle = {
             width: `${movie.vote_average * 10.0}%`

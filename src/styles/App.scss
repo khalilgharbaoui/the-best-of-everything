@@ -1,5 +1,192 @@
-/* Base Application Styles */
-body {
-  color: #000;
+body{margin: auto 0px;
+padding: 100px;
+align-content: center;}
 
+.demo-pricing {
+	margin-right: 10px;
+	padding: 14px 26px;
+	font-size: 14px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
+.demo-pricing:active {
+	padding-top: 15px;
+	margin-bottom: -1px;
+}
+.demo-pricing, .demo-pricing:hover, .demo-pricing:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.demo-pricing-1 {
+	background-color: #3fb8e8;
+	box-shadow: 0px 3px 0px 0px #3293ba;
+}
+.demo-pricing-1:hover {
+	background-color: #1baae3;
+}
+.demo-pricing-1:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+
+.demo-pricing-2 {
+	background-color: #f06060;
+	box-shadow: 0px 3px 0px 0px #cd1313;
+}
+.demo-pricing-2:hover {
+	background-color: #ed4444;
+}
+.demo-pricing-2:active {
+	box-shadow: 0px 1px 0px 0px #cd1313;
+}
+
+.demo-pricing-3 {
+	background-color: #ff6a80;
+	box-shadow: 0px 3px 0px 0px #da0020;
+}
+.demo-pricing-3:hover {
+	background-color: #ff566f;
+}
+.demo-pricing-3:active {
+	box-shadow: 0px 1px 0px 0px #da0020;
+}
+
+.demo-info {
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 14px 26px;
+	font-size: 14px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.demo-info:active {
+	padding-top: 15px;
+}
+.demo-info, .demo-info:hover, .demo-info:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+.demo-info-1 {
+	background-color: #fdc058;
+	box-shadow: 0px 3px 0px 0px #e29003;
+}
+.demo-info-1:hover {
+	background-color: #fdb53a;
+}
+.demo-info-1:active {
+	box-shadow: 0px 1px 0px 0px #e29003;
+}
+.demo-info-2 {
+	background-color: #aa65c7;
+	box-shadow: 0px 3px 0px 0px #883da7;
+}
+.demo-info-2:hover {
+	background-color: #9e4fbf;
+}
+.demo-info-2:active {
+	box-shadow: 0px 1px 0px 0px #883da7;
+}
+.demo-info-3 {
+	background-color: #2ecc71;
+	box-shadow: 0px 3px 0px 0px #239a55;
+}
+.demo-info-3:hover {
+	background-color: #28b363;
+}
+.demo-info-3:active {
+	box-shadow: 0px 1px 0px 0px #239a55;
+}
+
+
+.flat-table {
+		margin-bottom: 20px;
+		border-collapse:collapse;
+		font-family: 'Lato', Calibri, Arial, sans-serif;
+		border: none;
+		width: auto;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	}
+	.flat-table th, .flat-table td {
+		box-shadow: inset 0 -1px rgba(0,0,0,0.25),
+			inset 0 1px rgba(0,0,0,0.25);
+		text-align: left;
+	}
+	.flat-table th {
+		text-transform: none;
+		font-weight: normal;
+		-webkit-font-smoothing: antialiased;
+		margin: 0;
+		padding: 1em;
+		color: rgba(0,0,0,0.45);
+		text-shadow: 0 0 1px rgba(0,0,0,0.1);
+		font-weight: 300;
+		font-size: 1.5em;
+	}
+	.flat-table td {
+		color: #f7f7f7;
+		padding: 0.7em 1em 0.7em 1.15em;
+		text-shadow: 0 0 1px rgba(255,255,255,0.1);
+		font-size: 1.4em;
+	}
+	.flat-table tr {
+		-webkit-transition: background 0.3s, box-shadow 0.3s;
+		-moz-transition: background 0.3s, box-shadow 0.3s;
+		transition: background 0.3s, box-shadow 0.3s;
+	}
+	.flat-table-1 {
+		background: #336ca6;
+	}
+	.flat-table-1 tr:hover {
+		background: rgba(0,0,0,0.19);
+	}
+	.flat-table-2 tr:hover {
+		background: rgba(0,0,0,0.1);
+	}
+	.flat-table-2 {
+		background: #f06060;
+	}
+	.flat-table-3 {
+		background: #52be7f;
+	}
+	.flat-table-3 tr:hover {
+		background: rgba(0,0,0,0.1);
+	}

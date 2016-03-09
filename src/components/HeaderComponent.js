@@ -8,7 +8,7 @@ class HeaderComponent extends React.Component {
   render() {
     return (
       <div className="header-component">
-      <h1>the best of EveryThing Header</h1>
+      <center><img src="http://webtotally.com/theBestofEverything.jpg" /></center>
       </div>
     );
   }
