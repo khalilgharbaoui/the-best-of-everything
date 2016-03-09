@@ -2,7 +2,7 @@
 
 import React from 'react';
 import $ from 'jquery';
-import _ from 'lodash'
+import _ from 'lodash';
 
 
 require('styles/TrailersList.scss');
